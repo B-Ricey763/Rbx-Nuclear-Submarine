@@ -1,0 +1,13 @@
+{
+  "name": "NuclearSubmarine",
+  "tree": {
+    "$className": "Folder",
+
+    "SubModel": {
+      "$path": "sub.rbxmx"
+    },
+    "SubModule": {
+      "$path": "scripts"
+    }
+  }
+}

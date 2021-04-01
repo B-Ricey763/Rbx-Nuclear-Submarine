@@ -1,0 +1,9 @@
+# Project place file
+/test.rbxlx
+
+# Remodel directory (for private stuff)
+.remodel
+
+# Roblox Studio lock files
+/*.rbxlx.lock
+/*.rbxl.lock

@@ -1,0 +1,46 @@
+{
+  "name": "Nuclear-Submarine-Testing",
+  "tree": {
+    "$className": "DataModel",
+
+    "Workspace": {
+      "$properties": {
+        "FilteringEnabled": true,
+        "StreamingEnabled": true
+      },
+      "Terrain": {
+        "$path": "terrain.rbxmx"
+      },
+      "Spawn": {
+        "$className": "SpawnLocation",
+        "$properties": {
+          "Position": [-10.25, 274.971, -133.25],
+          "Size": [4, 1, 4],
+          "Transparency": 1
+        }
+      },
+      "Submarine": {
+        "$path": "src/Submarine"
+      }
+      
+    },
+    "Lighting": {
+      "$properties": {
+        "Ambient": [
+          0,
+          0,
+          0
+        ],
+        "Brightness": 2,
+        "GlobalShadows": true,
+        "Outlines": false,
+        "Technology": "Voxel"
+      }
+    },
+    "SoundService": {
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    }
+  }
+}
